@@ -1,0 +1,43 @@
+body {
+  font-family: "DM sans", "sans-serif";
+}
+
+@keyframes pointDown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}
+
+.animate-point-down {
+  animation: pointDown 1s infinite ease-in-out;
+}
+.shadow-bottom {
+  --tw-shadow: 0.1px 7px 0px 1px #02c545;
+  --tw-shadow-colored: 0.1px 7px 0px 1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.custom-shape-divider-top-1738586770 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1738586770 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 100px;
+}
+
+.custom-shape-divider-top-1738586770 .shape-fill {
+  fill: black;
+}
